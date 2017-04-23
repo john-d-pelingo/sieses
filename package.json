@@ -1,6 +1,6 @@
 {
   "name": "sieses",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "My CSS/SCSS template for mini-projects.",
   "private": false,
   "homepage": "https://github.com/john-d-pelingo/sieses#readme",
@@ -13,6 +13,10 @@
     "type": "git",
     "url": "https://github.com/john-d-pelingo/sieses.git"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "prebuild:elements": "node-sass --include-path scss src/builds/elements.scss dist/parts/elements.css",
     "prebuild:full": "node-sass --include-path scss src/sieses.scss dist/sieses.css",
