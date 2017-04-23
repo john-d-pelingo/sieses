@@ -1,0 +1,11 @@
+/* === button === */
+
+button {
+    cursor   : pointer;
+    overflow : visible;
+
+    &::-moz-focus-inner {
+        border  : 0;
+        padding : 0;
+    }
+}

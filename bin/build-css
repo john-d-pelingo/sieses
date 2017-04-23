@@ -1,1 +1,0 @@
-node-sass --include-path scss src/main.scss target/main.css

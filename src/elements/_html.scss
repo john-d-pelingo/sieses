@@ -1,0 +1,12 @@
+/* === html === */
+
+html {
+    background-color         : $base-background-color;
+    cursor                   : default;
+    font-size                : $root-font-size;
+    min-height               : 100%;
+    -webkit-text-size-adjust : 100%;
+    -ms-text-size-adjust     : 100%;
+    -moz-osx-font-smoothing  : grayscale;
+    -webkit-font-smoothing   : antialiased;
+}

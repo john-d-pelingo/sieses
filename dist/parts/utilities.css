@@ -1,0 +1,59 @@
+/* === Utilities === */
+/* === Utilities Center === */
+.u-absolute-center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
+
+.u-horizontal-center {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%); }
+
+.u-vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%); }
+
+/* === Clear === */
+.clear {
+  clear: both; }
+
+/* === Clear Fix === */
+.clear-fix {
+  zoom: 1; }
+
+.clear-fix:before,
+.clear-fix:after {
+  content: "";
+  display: table; }
+
+.clear-fix:after {
+  clear: both; }
+
+/* === Invisible === */
+.invisible {
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0; }
+
+/* === Utilities Text === */
+.u-text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal; }
+
+/* === Unclickable === */
+.unclickable {
+  pointer-events: none; }
