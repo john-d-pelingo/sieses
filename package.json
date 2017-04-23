@@ -1,0 +1,29 @@
+{
+  "name": "sieses",
+  "version": "0.0.1",
+  "description": "My CSS template for mini-projects.",
+  "private": false,
+  "homepage": "https://github.com/john-d-pelingo/sieses#readme",
+  "author": "John Darryl Pelingo <johndarrylpelingo@gmail.com> (https://github.com/john-d-pelingo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-d-pelingo/sieses/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john-d-pelingo/sieses.git"
+  },
+  "scripts": {
+    "prebuild": "node-sass --include-path scss src/main.scss dist/main.css",
+    "build": "postcss --use autoprefixer -b 'last 3 versions' < dist/main.css | postcss --use cssnano > dist/main.min.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "devDependencies": {
+    "autoprefixer": "6.7.7",
+    "cssnano": "3.10.0",
+    "node-sass": "4.5.2",
+    "nodemon": "1.11.0",
+    "postcss": "5.2.17",
+    "postcss-cli": "3.2.0"
+  }
+}
