@@ -1,57 +1,69 @@
 /* === Template === */
 html,
 body {
-  margin: 0;
-  min-width: 320px;
-  padding: 0; }
+    margin: 0;
+    min-width: 320px;
+    padding: 0;
+}
 
 body {
-  overflow-x: visible;
-  position: relative;
-  width: 100%; }
+    overflow-x: visible;
+    position: relative;
+    width: 100%;
+}
 
 a {
-  color: #0366d6;
-  cursor: pointer !important;
-  text-decoration: none; }
+    color: #0366d6;
+    cursor: pointer !important;
+    text-decoration: none;
+}
 
 a:hover {
-  text-decoration: underline; }
+    text-decoration: underline;
+}
 
 img, embed, object, video {
-  max-width: 100%; }
+    max-width: 100%;
+}
 
 img {
-  border: none;
-  height: auto;
-  vertical-align: top;
-  width: auto; }
+    border: none;
+    height: auto;
+    vertical-align: top;
+    width: auto;
+}
 
 li,
 form {
-  margin: 0;
-  padding: 0; }
+    margin: 0;
+    padding: 0;
+}
 
 ul,
 li {
-  list-style-type: none; }
+    list-style-type: none;
+}
 
 input,
 textarea {
-  vertical-align: top; }
+    vertical-align: top;
+}
 
 div {
-  border: none;
-  outline: none; }
+    border: none;
+    outline: none;
+}
 
 b,
 strong {
-  font-weight: bold; }
+    font-weight: bold;
+}
 
 i,
 em {
-  font-style: italic;
-  font-weight: normal; }
+    font-style: italic;
+    font-weight: normal;
+}
 
 h1,
 h2,
@@ -59,4 +71,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal; }
+    font-weight: normal;
+}

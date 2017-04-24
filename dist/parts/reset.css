@@ -2,12 +2,14 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
 *:focus {
-  outline: none; }
+    outline: none;
+}
 
 blockquote,
 body,
@@ -26,7 +28,8 @@ ol,
 p,
 pre,
 ul {
-  margin: 0; }
+    margin: 0;
+}
 
 blockquote,
 body,
@@ -45,11 +48,13 @@ ol,
 p,
 pre,
 ul {
-  margin: 0; }
+    margin: 0;
+}
 
 fieldset,
 iframe {
-  border: 0; }
+    border: 0;
+}
 
 fieldset,
 legend,
@@ -57,7 +62,8 @@ ol,
 td,
 th,
 ul {
-  padding: 0; }
+    padding: 0;
+}
 
 article,
 aside,
@@ -71,4 +77,5 @@ menu,
 nav,
 section,
 summary {
-  display: block; }
+    display: block;
+}
