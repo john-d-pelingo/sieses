@@ -1,6 +1,6 @@
 {
   "name": "sieses",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "My CSS/SCSS template for mini-projects.",
   "private": false,
   "homepage": "https://github.com/john-d-pelingo/sieses#readme",
@@ -34,6 +34,14 @@
     "build:utilities": "postcss --use autoprefixer -b 'last 3 versions' < dist/parts/utilities.css | postcss --use cssnano > dist/parts/utilities.min.css",
     "watch": "nodemon -e scss -x \"npm run build:full\""
   },
+  "keywords": [
+    "css",
+    "normalize",
+    "reset",
+    "scss",
+    "template",
+    "utilities"
+  ],
   "devDependencies": {
     "autoprefixer": "6.7.7",
     "cssnano": "3.10.0",

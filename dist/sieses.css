@@ -1,67 +1,56 @@
+@CHARSET "UTF-8";
 /* === Reset === */
+html {
+    box-sizing: border-box;
+}
+
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
 }
 
 *:focus {
     outline: none;
 }
 
-blockquote,
+html,
 body,
+blockquote,
 dd,
 dl,
+dt,
 fieldset,
 figure,
+form,
+hr,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-hr,
-ol,
-p,
-pre,
-ul {
-    margin: 0;
-}
-
-blockquote,
-body,
-dd,
-dl,
-fieldset,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-ol,
-p,
-pre,
-ul {
-    margin: 0;
-}
-
-fieldset,
-iframe {
-    border: 0;
-}
-
-fieldset,
+iframe,
 legend,
+li,
 ol,
-td,
-th,
+p,
+pre,
+textarea,
 ul {
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input,
+select {
+    margin: 0;
+}
+
+td, th {
     padding: 0;
 }
 
@@ -140,18 +129,25 @@ table {
     border-spacing: 0;
 }
 
+td, th {
+    text-align: left;
+}
+
 /* === Template === */
 html,
 body {
-    margin: 0;
     min-width: 320px;
-    padding: 0;
 }
 
 body {
     overflow-x: visible;
     position: relative;
     width: 100%;
+}
+
+div {
+    border: none;
+    outline: none;
 }
 
 a {
@@ -164,8 +160,13 @@ a:hover {
     text-decoration: underline;
 }
 
-img, embed, object, video {
+audio, embed, img, iframe, object, video {
+    height: auto;
     max-width: 100%;
+}
+
+fieldset, iframe {
+    border: 0;
 }
 
 img {
@@ -175,44 +176,25 @@ img {
     width: auto;
 }
 
-li,
-form {
-    margin: 0;
-    padding: 0;
-}
-
-ul,
-li {
+ul, li {
     list-style-type: none;
 }
 
-input,
-textarea {
+input, textarea {
     vertical-align: top;
 }
 
-div {
-    border: none;
-    outline: none;
-}
-
-b,
-strong {
+b, strong {
     font-weight: bold;
 }
 
-i,
-em {
+em, i {
     font-style: italic;
     font-weight: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
     font-weight: normal;
 }
 

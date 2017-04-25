@@ -1,0 +1,25 @@
+{
+  "name": "sieses",
+  "description": "My CSS/SCSS template for mini-projects.",
+  "main": "",
+  "authors": [
+    "John Darryl Pelingo <johndarrylpelingo@gmail.com> (https://github.com/john-d-pelingo)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "normalize",
+    "reset",
+    "scss",
+    "template",
+    "utilities"
+  ],
+  "homepage": "https://github.com/john-d-pelingo/sieses",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
