@@ -1,5 +1,4 @@
 /* === Utilities === */
-/* === Utilities Center === */
 .u-absolute-center {
     left: 50%;
     position: absolute;
@@ -28,34 +27,30 @@
     -webkit-transform: translateY(-50%);
 }
 
-/* === Clear === */
-.clear {
+.u-clear {
     clear: both;
 }
 
-/* === Clear Fix === */
-.clear-fix {
+.u-clear-fix {
     zoom: 1;
 }
 
-.clear-fix:before,
-.clear-fix:after {
+.u-clear-fix:before,
+.u-clear-fix:after {
     content: "";
     display: table;
 }
 
-.clear-fix:after {
+.u-clear-fix:after {
     clear: both;
 }
 
-/* === Invisible === */
-.invisible {
+.u-invisible {
     filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     opacity: 0;
 }
 
-/* === Utilities Text === */
 .u-text-truncate {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -63,7 +58,6 @@
     word-wrap: normal;
 }
 
-/* === Unclickable === */
-.unclickable {
+.u-unclickable {
     pointer-events: none;
 }

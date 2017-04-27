@@ -1,15 +1,15 @@
-/* === Clear Fix === */
+// Clear Fix
 
-.clear-fix {
+.u-clear-fix {
     zoom : 1;
 }
 
-.clear-fix:before,
-.clear-fix:after {
+.u-clear-fix:before,
+.u-clear-fix:after {
     content : "";
     display : table;
 }
 
-.clear-fix:after {
+.u-clear-fix:after {
     clear : both;
 }

@@ -1,5 +1,4 @@
 /* === Elements === */
-/* === html === */
 html {
     background-color: #fff;
     cursor: default;
@@ -11,7 +10,6 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-/* === body === */
 body {
     color: #333;
     font-family: Helvetica Neue, Arial, sans-serif;
@@ -19,7 +17,6 @@ body {
     line-height: 1.3125;
 }
 
-/* === a === */
 a {
     background-color: transparent;
 }
@@ -28,7 +25,6 @@ a:active, a:hover {
     outline: 0;
 }
 
-/* === button === */
 button {
     cursor: pointer;
     overflow: visible;
@@ -39,20 +35,17 @@ button::-moz-focus-inner {
     padding: 0;
 }
 
-/* === hr === */
 hr {
     border: 0;
     border-top: 1px solid;
 }
 
-/* === img === */
 img {
     border: 0;
     max-width: 100%;
     vertical-align: middle;
 }
 
-/* === table === */
 table {
     border-collapse: collapse;
     border-spacing: 0;
