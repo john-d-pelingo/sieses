@@ -1,6 +1,6 @@
 // Absolute Center Position
 
-.u-absolute-center {
+._absolute-center {
     left              : 50%;
     position          : absolute;
     top               : 50%;
@@ -10,7 +10,7 @@
     -webkit-transform : translate(-50%, -50%);
 }
 
-.u-horizontal-center {
+._horizontal-center {
     left              : 50%;
     position          : absolute;
     transform         : translateX(-50%);
@@ -19,7 +19,7 @@
     -webkit-transform : translateX(-50%);
 }
 
-.u-vertical-center {
+._vertical-center {
     position          : absolute;
     top               : 50%;
     transform         : translateY(-50%);

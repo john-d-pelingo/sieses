@@ -1,15 +1,15 @@
 // Clear Fix
 
-.u-clear-fix {
+._clear-fix {
     zoom : 1;
 }
 
-.u-clear-fix:before,
-.u-clear-fix:after {
+._clear-fix:before,
+._clear-fix:after {
     content : "";
     display : table;
 }
 
-.u-clear-fix:after {
+._clear-fix:after {
     clear : both;
 }

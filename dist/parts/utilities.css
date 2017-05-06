@@ -1,5 +1,5 @@
 /* === Utilities === */
-.u-absolute-center {
+._absolute-center {
     left: 50%;
     position: absolute;
     top: 50%;
@@ -9,7 +9,7 @@
     -webkit-transform: translate(-50%, -50%);
 }
 
-.u-horizontal-center {
+._horizontal-center {
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
@@ -18,7 +18,7 @@
     -webkit-transform: translateX(-50%);
 }
 
-.u-vertical-center {
+._vertical-center {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -27,37 +27,37 @@
     -webkit-transform: translateY(-50%);
 }
 
-.u-clear {
+._clear {
     clear: both;
 }
 
-.u-clear-fix {
+._clear-fix {
     zoom: 1;
 }
 
-.u-clear-fix:before,
-.u-clear-fix:after {
+._clear-fix:before,
+._clear-fix:after {
     content: "";
     display: table;
 }
 
-.u-clear-fix:after {
+._clear-fix:after {
     clear: both;
 }
 
-.u-invisible {
+._invisible {
     filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     opacity: 0;
 }
 
-.u-text-truncate {
+._text-truncate {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     word-wrap: normal;
 }
 
-.u-unclickable {
+._unclickable {
     pointer-events: none;
 }
